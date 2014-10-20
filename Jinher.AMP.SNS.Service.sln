@@ -1,0 +1,120 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service", "Jinher.AMP.SNS.Service\Jinher.AMP.SNS.Service.csproj", "{F3DE8437-B5C0-4FAE-998E-AF2FDC35B200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service.BE", "Jinher.AMP.SNS.Service.BE\Jinher.AMP.SNS.Service.BE.csproj", "{0FF4C04D-CBFB-492F-81BF-BB6C77305C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service.BP", "Jinher.AMP.SNS.Service.BP\Jinher.AMP.SNS.Service.BP.csproj", "{80479532-5E05-48D7-9B58-F5FE8E899C08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service.Cache", "Jinher.AMP.SNS.Service.Cache\Jinher.AMP.SNS.Service.Cache.csproj", "{96136505-B8DA-472F-BC5B-34CCCC5BA406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service.Deploy", "Jinher.AMP.SNS.Service.Deploy\Jinher.AMP.SNS.Service.Deploy.csproj", "{EF5065AD-E70C-4AAC-AA74-11932D1B250A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Service.Host", "Jinher.AMP.SNS.Service.Host\Jinher.AMP.SNS.Service.Host.csproj", "{2B43388E-D128-4212-8EC0-C44F42887DE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.IService", "Jinher.AMP.SNS.Service.IBP\Jinher.AMP.SNS.IService.csproj", "{65FBA525-E06C-44D0-9027-0BE31C34525B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jinher.AMP.SNS.Serivce.Utility", "Jinher.AMP.SNS.Serivce.Utility\Jinher.AMP.SNS.Serivce.Utility.csproj", "{D60907F9-564A-4C50-BB1A-3D727CF9DC9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CD02159C-68DD-4042-9A08-18764F0AC944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{A20281A8-5F2A-4072-9195-FB57DF58C80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console-Test", "Console-Test\Console-Test.csproj", "{3254F3AF-CD06-4C3B-9850-4E44CEA407F4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.3.14:8080/tfs/g3
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Jinher.AMP.SNS.Serivce.Utility\\Jinher.AMP.SNS.Serivce.Utility.csproj
+		SccProjectName1 = Jinher.AMP.SNS.Serivce.Utility
+		SccLocalPath1 = Jinher.AMP.SNS.Serivce.Utility
+		SccProjectUniqueName2 = Jinher.AMP.SNS.Service.BE\\Jinher.AMP.SNS.Service.BE.csproj
+		SccProjectName2 = Jinher.AMP.SNS.Service.BE
+		SccLocalPath2 = Jinher.AMP.SNS.Service.BE
+		SccProjectUniqueName3 = Jinher.AMP.SNS.Service.BP\\Jinher.AMP.SNS.Service.BP.csproj
+		SccProjectName3 = Jinher.AMP.SNS.Service.BP
+		SccLocalPath3 = Jinher.AMP.SNS.Service.BP
+		SccProjectUniqueName4 = Jinher.AMP.SNS.Service.Cache\\Jinher.AMP.SNS.Service.Cache.csproj
+		SccProjectName4 = Jinher.AMP.SNS.Service.Cache
+		SccLocalPath4 = Jinher.AMP.SNS.Service.Cache
+		SccProjectUniqueName5 = Jinher.AMP.SNS.Service.Deploy\\Jinher.AMP.SNS.Service.Deploy.csproj
+		SccProjectName5 = Jinher.AMP.SNS.Service.Deploy
+		SccLocalPath5 = Jinher.AMP.SNS.Service.Deploy
+		SccProjectUniqueName6 = Jinher.AMP.SNS.Service.Host\\Jinher.AMP.SNS.Service.Host.csproj
+		SccProjectName6 = Jinher.AMP.SNS.Service.Host
+		SccLocalPath6 = Jinher.AMP.SNS.Service.Host
+		SccProjectUniqueName7 = Jinher.AMP.SNS.Service\\Jinher.AMP.SNS.Service.csproj
+		SccProjectName7 = Jinher.AMP.SNS.Service
+		SccLocalPath7 = Jinher.AMP.SNS.Service
+		SccProjectUniqueName8 = Jinher.AMP.SNS.Service.IBP\\Jinher.AMP.SNS.IService.csproj
+		SccProjectName8 = Jinher.AMP.SNS.Service.IBP
+		SccLocalPath8 = Jinher.AMP.SNS.Service.IBP
+		SccProjectUniqueName9 = UnitTestProject1\\UnitTestProject1.csproj
+		SccProjectTopLevelParentUniqueName9 = Jinher.AMP.SNS.Service.sln
+		SccProjectName9 = UnitTestProject1
+		SccLocalPath9 = UnitTestProject1
+		SccProjectUniqueName10 = Console-Test\\Console-Test.csproj
+		SccProjectTopLevelParentUniqueName10 = Jinher.AMP.SNS.Service.sln
+		SccProjectName10 = Console-Test
+		SccLocalPath10 = Console-Test
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3DE8437-B5C0-4FAE-998E-AF2FDC35B200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DE8437-B5C0-4FAE-998E-AF2FDC35B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DE8437-B5C0-4FAE-998E-AF2FDC35B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DE8437-B5C0-4FAE-998E-AF2FDC35B200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF4C04D-CBFB-492F-81BF-BB6C77305C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF4C04D-CBFB-492F-81BF-BB6C77305C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF4C04D-CBFB-492F-81BF-BB6C77305C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF4C04D-CBFB-492F-81BF-BB6C77305C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80479532-5E05-48D7-9B58-F5FE8E899C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80479532-5E05-48D7-9B58-F5FE8E899C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80479532-5E05-48D7-9B58-F5FE8E899C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80479532-5E05-48D7-9B58-F5FE8E899C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96136505-B8DA-472F-BC5B-34CCCC5BA406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96136505-B8DA-472F-BC5B-34CCCC5BA406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96136505-B8DA-472F-BC5B-34CCCC5BA406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96136505-B8DA-472F-BC5B-34CCCC5BA406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5065AD-E70C-4AAC-AA74-11932D1B250A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5065AD-E70C-4AAC-AA74-11932D1B250A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5065AD-E70C-4AAC-AA74-11932D1B250A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5065AD-E70C-4AAC-AA74-11932D1B250A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B43388E-D128-4212-8EC0-C44F42887DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B43388E-D128-4212-8EC0-C44F42887DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B43388E-D128-4212-8EC0-C44F42887DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B43388E-D128-4212-8EC0-C44F42887DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65FBA525-E06C-44D0-9027-0BE31C34525B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65FBA525-E06C-44D0-9027-0BE31C34525B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65FBA525-E06C-44D0-9027-0BE31C34525B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65FBA525-E06C-44D0-9027-0BE31C34525B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60907F9-564A-4C50-BB1A-3D727CF9DC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60907F9-564A-4C50-BB1A-3D727CF9DC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60907F9-564A-4C50-BB1A-3D727CF9DC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60907F9-564A-4C50-BB1A-3D727CF9DC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A20281A8-5F2A-4072-9195-FB57DF58C80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A20281A8-5F2A-4072-9195-FB57DF58C80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A20281A8-5F2A-4072-9195-FB57DF58C80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A20281A8-5F2A-4072-9195-FB57DF58C80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3254F3AF-CD06-4C3B-9850-4E44CEA407F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3254F3AF-CD06-4C3B-9850-4E44CEA407F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3254F3AF-CD06-4C3B-9850-4E44CEA407F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3254F3AF-CD06-4C3B-9850-4E44CEA407F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A20281A8-5F2A-4072-9195-FB57DF58C80A} = {CD02159C-68DD-4042-9A08-18764F0AC944}
+		{3254F3AF-CD06-4C3B-9850-4E44CEA407F4} = {CD02159C-68DD-4042-9A08-18764F0AC944}
+	EndGlobalSection
+EndGlobal
